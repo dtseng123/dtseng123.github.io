@@ -445,7 +445,7 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 }
 .navbar-transparent{
     padding-top: 15px;
-    background-color: rgba(0,0,0,.0);
+    background-color: rgba(0,0,0,0.2);
 }
 .navbar-transparent .navbar-brand, [class*="navbar-ct"] .navbar-brand{
     color: #FFFFFF;
