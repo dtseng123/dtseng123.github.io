@@ -3,15 +3,86 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url(../assets/css/get-shit-done.css);
-/* line 9, ../sass/screen.scss */
+@import url("http://fonts.googleapis.com/css?family=Italiana");
+/* line 11, ../sass/screen.scss */
 .logo {
   position: fixed;
   display: block;
-  top: 200px;
-  width: 250px;
+  top: 10px;
+  width: 10%;
+  left: 45%;
+  right: 45%;
+  z-index: 10;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 .navbar-ct-red {
   color: #f64d4d !important;
+}
+
+/* line 26, ../sass/screen.scss */
+.portfolio-btn {
+  position: absolute;
+  bottom: 0px;
+}
+
+/* line 31, ../sass/screen.scss */
+.headline {
+  font-family: 'Italiana', serif;
+  visibility: hidden;
+}
+
+/* line 35, ../sass/screen.scss */
+.blurred-container > .img-src {
+  height: 560px !important;
+}
+
+/* line 38, ../sass/screen.scss */
+.subtitle {
+  font-size: 100%;
+  color: #f64d4d;
+}
+
+/* line 42, ../sass/screen.scss */
+.card-container {
+  visibility: hidden;
+}
+
+/* line 51, ../sass/screen.scss */
+.burst-right {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+}
+
+/* line 55, ../sass/screen.scss */
+.burst-left {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 60, ../sass/screen.scss */
+.main {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* line 63, ../sass/screen.scss */
+.blurred-container > .img-src {
+  border-bottom: 2px solid #acacac;
+}
+
+/* line 66, ../sass/screen.scss */
+.tim-container {
+  border: 2px solid #acacac;
+  padding: 2px;
+}
+
+/* line 70, ../sass/screen.scss */
+.zim-container {
+  border: 2px solid #acacac;
+  border-radius: 10px;
+  margin: 2px;
 }

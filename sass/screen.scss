@@ -4,16 +4,79 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "../assets/css/get-shit-done.css";
-
-
+@import url("http://fonts.googleapis.com/css?family=Italiana");
+ 
+ $red-color:#f64d4d;
+ $border-color:#acacac;
 .logo{
     position:fixed;
     display: block;
-    top:200px;
-   
-    width: 250px;
+    top:10px;
+    width: 10%;
+    left:45%;
+    right: 45%;
+    z-index:10;
+
 }
 
 .navbar-ct-red{
-	color:#f64d4d !important;
+	color:$red-color !important;
 }
+
+.portfolio-btn{
+	position:absolute;
+	bottom:0px;
+}
+
+.headline{
+	font-family: 'Italiana', serif;
+	visibility:hidden;
+}
+.blurred-container > .img-src{
+	height:560px !important;
+}
+.subtitle{
+	font-size:100%;
+	color:$red-color;
+}
+.card-container{
+visibility:hidden;
+}
+
+@mixin burst{
+	position:absolute;
+	width:100%;
+	top:0px;
+}
+.burst-right{
+ 	@include burst;
+ 	right:0px;
+}
+.burst-left{
+	@include burst;
+	left:0px;
+}	
+
+.main{
+	background-color:rgba(0,0,0,0) !important;
+}
+.blurred-container > .img-src{
+	border-bottom:2px solid $border-color;
+}
+.tim-container{
+	border: 2px solid $border-color;
+	padding:2px;
+}
+.zim-container{
+	border: 2px solid $border-color;
+	border-radius:10px;
+	margin:2px;
+
+}
+
+
+
+
+
+
+
