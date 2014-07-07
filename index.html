@@ -11,8 +11,23 @@
     <!--     Font Awesome     -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
-      <link href="assets/css/rotating-card.css" rel="stylesheet" />
-      <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href="assets/css/rotating-card.css" rel="stylesheet" />
+    <link href='assets/css/fullcalendar.css' rel='stylesheet' />
+    <link href='assets/css/fullcalendar.print.css' rel='stylesheet' media='print' />    
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src='jquery/jquery-ui.custom.min.js'></script>
+        <script src='assets/js/moment.min.js'></script>
+        <script src='assets/js/fullcalendar.js'></script>
+        <script src='assets/js/gcal.js'></script>
+<!--Calendar-->
+<script>
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        events: 'http://www.google.com/calendar/feeds/startupinstitute.com_dkmbh3oopre4guavi8p8pfofag%40group.calendar.google.com/public/basic'
+    });
+});
+
+</script>
 </head>
 
 <body>
@@ -108,7 +123,8 @@
 </section>
 
 <!-- end container -->
-<section id="team">    <div class="container">
+<section id="team">    
+ <div class="container">
     <div class="row">
         <h1 class="title">
             This is our Awesome Team!
@@ -322,9 +338,21 @@
     </div> <!-- end row -->
    
 
-    <div class="space-200"></div>   
+    <div class="space-200"></div> 
+              
+    
     </div> <!-- end container -->
 </section>
+
+<section id="cal">
+    <div class="container">
+        <div class="row">
+            <div id="calendar"></div>
+        </div>
+    </div>
+</section>
+
+
     <div class="space"></div>
 <script>
     $(window).scroll(function() {
