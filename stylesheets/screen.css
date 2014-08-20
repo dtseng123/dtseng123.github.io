@@ -95,8 +95,8 @@
 
 /* line 79, ../sass/screen.scss */
 .footer {
-  background-image: none;
-  background-color: none;
+  background-image: none !important;
+  background-color: none !important;
 }
 
 /*calendar*/
