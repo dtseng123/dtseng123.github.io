@@ -93,14 +93,20 @@
   background-image: url("../images/");
 }
 
+/* line 79, ../sass/screen.scss */
+.footer {
+  background-image: none;
+  background-color: none;
+}
+
 /*calendar*/
-/* line 81, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 #wrap {
   width: 1100px;
   margin: 0 auto;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 #external-events {
   float: left;
   width: 150px;
@@ -108,14 +114,14 @@
   text-align: left;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 #external-events h4 {
   font-size: 16px;
   margin-top: 0;
   padding-top: 1em;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .external-event {
   /* try to mimick the look of a real event */
   margin: 10px 0;
@@ -126,20 +132,20 @@
   cursor: pointer;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 #external-events p {
   margin: 1.5em 0;
   font-size: 11px;
   color: #666;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 #external-events p input {
   margin: 0;
   vertical-align: middle;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #calendar {
   /* 		float: right; */
   margin: 0 auto;
@@ -149,7 +155,7 @@
   box-shadow: 0 1px 2px #C3C3C3;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 #cal {
   height: 100px;
   width: 600px;
