@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["AH3T69588R.com.Dazzatron.VisionClaw"],
+        "components": [
+          { "/": "*" }
+        ]
+      }
+    ]
+  }
+}
